@@ -1,1 +1,95 @@
-﻿
+﻿D:\github_workplace\excel_to_json
+{ NotFoundError: Not Found
+    at D:\github_workplace\excel_to_json\app.js:53:8
+    at Layer.handle [as handle_request] (D:\github_workplace\excel_to_json\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:317:13)
+    at D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:275:10)
+    at D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:635:15
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:47:12) message: 'Not Found' }
+{ Error: ENOENT: no such file or directory, scandir 'D:\github_workplace\excel_to_json\public\users_data\excel\admin'
+    at Object.readdirSync (fs.js:785:3)
+    at D:\github_workplace\excel_to_json\routes\upload_excel.js:41:20
+    at Layer.handle [as handle_request] (D:\github_workplace\excel_to_json\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\github_workplace\excel_to_json\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\github_workplace\excel_to_json\node_modules\express\lib\router\layer.js:95:5)
+    at D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:275:10)
+    at multerMiddleware (D:\github_workplace\excel_to_json\node_modules\multer\lib\make-middleware.js:18:41)
+  errno: -4058,
+  syscall: 'scandir',
+  code: 'ENOENT',
+  path:
+   'D:\\github_workplace\\excel_to_json\\public\\users_data\\excel\\admin' }
+【观音溪镇】四川省华蓥市2018年度城乡残疾人居家灵活就业创业直补汇总表.xlsx
+admin
+{ [Error: ENOENT: no such file or directory, open 'D:\github_workplace\excel_to_json\public\users_data\excel\admin\【观音溪镇】四川省华蓥市2018年度城乡残疾人居家灵活就业创业直补汇总表.xlsx']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   'D:\\github_workplace\\excel_to_json\\public\\users_data\\excel\\admin\\【观音溪镇】四川省华蓥市2018年度城乡残疾人居家灵活就业创业直补汇总表.xlsx',
+  storageErrors: [] }
+{ Error: ENOENT: no such file or directory, scandir 'D:\github_workplace\excel_to_json\public\users_data\excel\admin'
+    at Object.readdirSync (fs.js:785:3)
+    at D:\github_workplace\excel_to_json\routes\upload_excel.js:41:20
+    at Layer.handle [as handle_request] (D:\github_workplace\excel_to_json\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\github_workplace\excel_to_json\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\github_workplace\excel_to_json\node_modules\express\lib\router\layer.js:95:5)
+    at D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:275:10)
+    at multerMiddleware (D:\github_workplace\excel_to_json\node_modules\multer\lib\make-middleware.js:18:41)
+  errno: -4058,
+  syscall: 'scandir',
+  code: 'ENOENT',
+  path:
+   'D:\\github_workplace\\excel_to_json\\public\\users_data\\excel\\admin' }
+D:\github_workplace\excel_to_json
+{ Error: ENOENT: no such file or directory, scandir 'D:\github_workplace\excel_to_json\public\users_data\excel\admin'
+    at Object.readdirSync (fs.js:785:3)
+    at D:\github_workplace\excel_to_json\routes\upload_excel.js:41:20
+    at Layer.handle [as handle_request] (D:\github_workplace\excel_to_json\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\github_workplace\excel_to_json\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\github_workplace\excel_to_json\node_modules\express\lib\router\layer.js:95:5)
+    at D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\github_workplace\excel_to_json\node_modules\express\lib\router\index.js:275:10)
+    at multerMiddleware (D:\github_workplace\excel_to_json\node_modules\multer\lib\make-middleware.js:18:41)
+  errno: -4058,
+  syscall: 'scandir',
+  code: 'ENOENT',
+  path:
+   'D:\\github_workplace\\excel_to_json\\public\\users_data\\excel\\admin' }
+【观音溪镇】四川省华蓥市2018年度城乡残疾人居家灵活就业创业直补汇总表.xlsx
+admin
+{ username: 'admin',
+  filename: '【观音溪镇】四川省华蓥市2018年度城乡残疾人居家灵活就业创业直补汇总表.xlsx',
+  columnList_configuration: '2=name,3=sex',
+  rowsList_configuration: '5-100' }
+..\users_data\json\admin\【观音溪镇】四川省华蓥市2018年度城乡残疾人居家灵活就业创业直补汇总表.txt
+2
+3
+[ { name: '唐伦国', sex: '男' },
+  { name: '殷顺均', sex: '男' },
+  { name: '詹廷辉', sex: '男' },
+  { name: '王朝春', sex: '男' },
+  { name: '易德', sex: '男' },
+  { name: '江显建', sex: '男' },
+  { name: '汪小华', sex: '女' },
+  { name: '郭安军', sex: '男' },
+  { name: '向玉菊', sex: '女' },
+  { name: '王拥均', sex: '女' },
+  { name: '贺绍贵', sex: '男' },
+  { name: '邹苏花', sex: '女' },
+  { name: '蔡华琼', sex: '女' },
+  { name: '王羚', sex: '男' },
+  { name: '江利英', sex: '女' } ]
+文件写入成功
