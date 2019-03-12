@@ -1,0 +1,12 @@
+.fileList_label:hover{
+  color:grey
+}
+.configurationList{
+  display:none
+}
+.json_download_enable{
+  display:block
+}
+.json_download_disable{
+  display:none
+}

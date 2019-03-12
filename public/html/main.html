@@ -1,0 +1,29 @@
+<script src = "../javascripts/jquery_min.js"></script>
+<script src = "../javascripts/main/main.js"></script>
+<link rel="stylesheet" href="../stylesheets/main.css" type="text/css" />
+<label type="text" style="color:blue">选择已上传至服务器的文件，填写配置表，获取转换后的json文件。</label><br/>
+<div class="item">
+    <input type="text" id="username" name="username">
+    <button id="searchUser">用户名查询</button>
+</div>
+<label type="text">当前用户:</label><label type="text" id="user">admin</label>
+<div>
+  <form action="/upload_excel" method="post"  enctype="multipart/form-data">  
+    <input type="file" id="myfile" name="myfile" accept=".xlsx" /><br/>  
+    <input type="button" id="upload" value="上传excel文件"/><br/>  
+  </form>
+</div>
+
+<div id="fileList" style = "border: solid 1px;width:500px;height:300px">
+</div>
+
+<div id="configurationList" class="configurationList">
+  <label type="text">当前用户:</label><label type="text" id="user_configuration">admin</label><br/>
+  <label type="text">当前文件:</label><label type="text" id="file_configuration">xxxx.xlsx</label><br/>
+  需要解析的列序号（从1开始,用逗号隔开，如：1=name,2=sex,5=address）:<input type="text" id="columnList_configuration" name="columnList"><br/>
+  需要解析的行数（如：4-100）:<input type="text" id="rowsList_configuration" name="rowsList"><br/>
+  <button id="excel_parse">开始解析</button>
+  <button id="json_download" class="json_download_disable">下载JSON</button>
+  <a href="url 302到下载地址" id="json_downloadPath" style="display:none" download></a>
+</div>
+
