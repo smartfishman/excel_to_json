@@ -1,4 +1,5 @@
 /node_modules/
-!/public/*
 /*.log
 access.log
+!/public/*
+
