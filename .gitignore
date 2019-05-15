@@ -2,3 +2,4 @@
 access.log
 !/public/*
 
+access.log
